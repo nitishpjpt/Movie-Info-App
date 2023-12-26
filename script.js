@@ -8,7 +8,7 @@ const  getMovies = () => {
     const searchParamas = search.value;
     
     if (searchParamas.length <= 0) {
-         result.innerHTML = "<h2>Enter Your City Name.</h2>"
+         result.innerHTML = "<h2>Enter Movie Name.</h2>"
      }
 
      // if input field is not empty
